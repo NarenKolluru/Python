@@ -1,0 +1,15 @@
+s={"Fri",2,4,'Mon'}
+print(s)
+s.add('thru')
+print(s)
+s.update([6,7])
+print(s)
+s.remove(2)
+print(s)
+s.discard(2)
+print(s)
+s.pop()
+print(s)
+s.clear()
+print(s)
+del s
