@@ -1,0 +1,6 @@
+f=open('C:\\Users\\Windows 10\\Desktop\\text\\notes.txt','a')
+f.write("\nSee you later")
+f=open('C:\\Users\\Windows 10\\Desktop\\text\\notes.txt','r')
+data=f.read()
+print(data)
+f.close()
