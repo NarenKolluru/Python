@@ -1,0 +1,12 @@
+def addComplex(z1,z2):
+ return z1 + z2
+z1=complex(2,3)
+z2=complex(1,2)
+print( "Addition is : ",addComplex(z1,z2))
+
+def subComplex(z1,z2):
+ return z1-z2
+z1=complex(4,7)
+z2=complex(1,3)
+print( "Subtraction is : ",subComplex(z1,z2))
+
